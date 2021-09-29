@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataPhongNet">
+  <DataContextMoniker Name="/DataPhongNetDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a4981ee4-ca71-49e1-ab0d-98b487befbe2" absoluteBounds="0.75, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/DataPhongNetDataContext/ADMIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04da834c-171b-4434-8cd4-9dffa37c2d98" absoluteBounds="0.765, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ec90f56-b5c2-40f8-9acf-e8e131574c54" absoluteBounds="3.5, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataPhongNetDataContext/MAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aef2e154-61eb-4ce2-b01a-5547c7a0be4a" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f0c3ecb-e793-4369-9797-4ac0cf9384e9" absoluteBounds="3.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DataPhongNetDataContext/THUCUONG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e15f6493-f1fb-4988-bf4c-c4d5bd1537f3" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1d77c01-c185-4f81-91bd-743cc0697d42" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/DataPhongNetDataContext/THUCAN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e26b8272-802e-46b3-8288-4ec544d224ca" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="00d2eedb-554b-4b07-b289-2353dd5aa32f" absoluteBounds="0.75, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataPhongNetDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30020685-298e-4dbd-adf7-4a1d8134e058" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.76044840494792); (3.5 : 1.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataPhongNetDataContext/TaiKhoan/TaiKhoan_MAY" />
+      <nodes>
+        <classShapeMoniker Id="00d2eedb-554b-4b07-b289-2353dd5aa32f" />
+        <classShapeMoniker Id="9ec90f56-b5c2-40f8-9acf-e8e131574c54" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
